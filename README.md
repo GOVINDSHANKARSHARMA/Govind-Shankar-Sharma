@@ -1,18 +1,13 @@
-# Govind Shankar Sharma — Portfolio
+# Govind Shankar Sharma - Portfolio
 
-Static, mobile-first portfolio built with HTML, CSS and vanilla JavaScript.
+Plain HTML, CSS and JavaScript. No build step: open `index.html` to preview.
 
-## GitHub Pages
-Repository Settings → Pages → Deploy from a branch → `main` → `/(root)`.
+## Publish on GitHub Pages
+1. Put all files in the root of the `GOVINDSHANKARSHARMA.github.io` repository (`main` branch).
+2. Settings > Pages: Deploy from a branch, `main`, `/ (root)`.
+3. Custom domain: the `CNAME` file already says `govindshankarsharma.com`. At your domain registrar add four A records for `@`: 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153, and a CNAME for `www` pointing to `GOVINDSHANKARSHARMA.github.io`. Then enable Enforce HTTPS when available.
 
-## Before sharing
-- Add your real resume at `assets/resume.pdf`.
-- Update LinkedIn/Instagram URLs to your exact profiles.
-- Replace planned project and gallery placeholders with real work.
-- The contact form currently opens a prefilled email; no Formspree endpoint is configured.
-- Add DNS records for `govindshankarsharma.com` at your registrar and verify domain ownership in Pages.
-
-## Files
-- `index.html`: page content
-- `css/style.css`: responsive styling and theme variables
-- `js/main.js`: menu, theme, gallery, scroll and email interactions
+## Keep it updated
+- Add project photos to `assets/images/` and link them in the project cards in `index.html`.
+- Replace `assets/resume.pdf` whenever your resume changes.
+- The contact form opens the visitor's email app, so no form service is needed.

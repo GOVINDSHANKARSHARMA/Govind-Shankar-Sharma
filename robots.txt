@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://govindshankarsharma.github.io/Govind-Shankar-Sharma/sitemap.xml
+Sitemap: https://govindshankarsharma.com/sitemap.xml
